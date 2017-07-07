@@ -1,35 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    
+    <meta name="description" content="A Random Quote Generator">
+    <meta name="author" content="Sarah Veness">
+
     <title>Random Quote Generator</title>
     <link href="https://fonts.googleapis.com/css?family=Bellefair|Quicksand|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles/styles.css">
   </head>
+
   <body>
-    <div class="container-fluid text-center" id="main">
-      <h1>Random Quote Generator</h1>
-
-      <button id="newQuote" class="btn btn-default" type="submit">New Quote</button>
-      <button id="tweetQuote" class="btn btn-default" type="submit">Tweet Quote</button>
-
-
-      <div class="quotes">
-        <span class="quote"></span>
-        <br />
-        <span class="author"></span>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner">
+            <h1 class="cover-heading">Random Quote Generator</h1>
+              <button id="newQuote" class="btn btn-default" type="submit">New Quote</button>
+              <button id="tweetQuote" class="btn btn-default" type="submit">Tweet Quote</button>
+              <div class="quotes">
+                <div class="quote"></div>
+                <br />
+                <div class="author"></div>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
 
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-      <script src="js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
