@@ -1,0 +1,22 @@
+$small-device-tablet: 768px;
+$medium-device-laptop: 980px;
+$large-device-desktop: 1200px;
+
+html {
+  height: 100%;
+}
+
+body {
+  background: url('gplaypattern.png');
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  font-family: 'Bellefair', serif;
+  font-size: 40px;
+}
+
+#main {
+  background-color: rgba(255,255,255,0.6);
+  width: 50%;
+}
