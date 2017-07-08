@@ -10,7 +10,8 @@ body {
 
 h1 {
   text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-  font-family: 'Bellfaire', serif; }
+  font-family: 'Bellfaire', serif;
+  margin-bottom: 30px; }
 
 .site-wrapper {
   display: table;
@@ -39,6 +40,10 @@ h1 {
 .quote {
   display: block;
   font-size: 20px;
-  margin-top: 10px; }
+  margin-top: 30px;
+  font-style: italic; }
+
+.author {
+  font-weight: 400; }
 
 /*# sourceMappingURL=styles.css.map */
